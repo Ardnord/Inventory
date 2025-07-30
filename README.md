@@ -1,4 +1,5 @@
-#Proyek Inventaris Toko Bangunan
+# Proyek Inventaris Toko Bangunan
+
 Proyek Inventaris Toko Bangunan adalah aplikasi web berbasis CodeIgniter 3 yang dirancang untuk mempermudah pengelolaan data dan transaksi pada toko bangunan. Aplikasi ini menyediakan fitur-fitur lengkap untuk manajemen master data, transaksi penerimaan dan pengeluaran barang, serta pengaturan pengguna dan profil toko.
 
 Fitur Utama
