@@ -73,10 +73,3 @@ GitHub: [https://github.com/Ardnord/Inventory](https://github.com/Ardnord/Invent
 
 ---
 
-## 📩 Lisensi
-
-Proyek ini dapat digunakan dan dimodifikasi untuk kepentingan pengembangan lebih lanjut. Silakan merujuk pada lisensi di repositori (jika tersedia).
-
----
-
-> Dibuat untuk mendukung digitalisasi pengelolaan toko bangunan secara efisien dan terstruktur.
