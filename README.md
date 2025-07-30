@@ -1,58 +1,82 @@
-# Proyek Inventaris Toko Bangunan
+# 🏗️ Inventory Toko Bangunan (CodeIgniter 3)
 
-Proyek Inventaris Toko Bangunan adalah aplikasi web berbasis CodeIgniter 3 yang dirancang untuk mempermudah pengelolaan data dan transaksi pada toko bangunan. Aplikasi ini menyediakan fitur-fitur lengkap untuk manajemen master data, transaksi penerimaan dan pengeluaran barang, serta pengaturan pengguna dan profil toko.
+Aplikasi Inventory Toko Bangunan ini adalah sistem pengelolaan stok dan transaksi yang dikembangkan menggunakan **CodeIgniter 3**. Aplikasi ini dirancang untuk membantu toko bangunan dalam mengelola:
 
-Fitur Utama
-Aplikasi ini dilengkapi dengan modul-modul berikut:
-Dashboard: Ringkasan visual performa toko, stok barang, dan informasi penting lainnya.
+- Data barang
+- Pelanggan
+- Pemasok
+- Petugas
+- Transaksi penerimaan dan pengeluaran barang
 
-Master Data:
+Antarmuka dibangun menggunakan **Bootstrap** untuk memastikan tampilan yang responsif dan user-friendly.
 
-Master Barang: Pengelolaan data produk toko, termasuk nama, kategori, harga beli, harga jual, dan stok.
+---
 
-Master Customer: Pencatatan data pelanggan untuk memudahkan transaksi dan program loyalitas.
+## ✨ Fitur Utama
 
-Master Supplier: Informasi detail pemasok untuk manajemen rantai pasokan.
+### 📊 Dashboard
+- Menampilkan ringkasan status inventaris dan aktivitas transaksi terbaru.
 
-Master Petugas: Data petugas atau karyawan yang memiliki akses ke sistem.
+### 📁 Master Data
+- **Master Barang**: Pengelolaan data produk toko bangunan (nama, kategori, harga, stok).
+- **Master Customer**: Data pelanggan dan pelacakan riwayat pembelian.
+- **Master Supplier**: Informasi pemasok barang.
+- **Master Petugas**: Data petugas/karyawan yang mengelola sistem.
 
-Transaksi:
+### 🔄 Transaksi
+- **Transaksi Penerimaan**: Pencatatan barang masuk (dari supplier).
+- **Transaksi Pengeluaran**: Pencatatan barang keluar (ke customer).
 
-Transaksi Penerimaan: Pencatatan setiap barang yang masuk ke gudang/toko, seperti dari pembelian ke supplier.
+### ⚙️ Pengaturan
+- **Manajemen Pengguna**: Pengelolaan akun user sistem.
+- **Profil Toko**: Informasi dasar dan identitas toko.
 
-Transaksi Pengeluaran: Pencatatan setiap barang yang keluar dari gudang/toko, seperti dari penjualan ke customer.
+---
 
-Pengaturan:
+## 🧰 Teknologi yang Digunakan
 
-Manajemen Pengguna: Pengelolaan akun pengguna sistem (administrator, kasir, dll.) dengan hak akses yang berbeda.
+| Komponen       | Keterangan                          |
+|----------------|--------------------------------------|
+| Framework      | CodeIgniter 3                        |
+| Bahasa         | PHP (rekomendasi versi 7.4.20)       |
+| Database       | MySQL / MariaDB (XAMPP default)      |
+| Web Server     | Apache (melalui XAMPP)              |
+| Frontend       | Bootstrap                            |
 
-Profil Toko: Pengaturan informasi dasar toko seperti nama, alamat, nomor telepon, dan logo.
+---
 
-Persyaratan Sistem
+## 💻 Persyaratan Sistem
 
-Untuk menjalankan proyek ini, pastikan sistem Anda memenuhi persyaratan berikut:
+Pastikan Anda memiliki:
 
-Web Server: Apache / Nginx
+- **XAMPP**: Apache & MySQL aktif.
+- **PHP**: Versi 7.4.20 sangat disarankan (versi lebih baru mungkin butuh penyesuaian).
+- **Browser modern**: Untuk UI terbaik.
 
-PHP: Disarankan PHP 7.4.20.
+---
 
-Database: MySQL / MariaDB
+## 🔗 Link Repositori
 
-CodeIgniter: Versi 3
+GitHub: [https://github.com/Ardnord/Inventory](https://github.com/Ardnord/Inventory)
 
+---
 
+## 🔐 Akun Login
 
-login
+### 👤 Petugas
+- **Username**: `PTGS1`  
+- **Password**: `123456`
 
-petugas
+### 👨‍💼 Admin
+- **Username**: `Admin`  
+- **Password**: `Admin`
 
-Username : PTGS1
+---
 
-pasword : 123456
+## 📩 Lisensi
 
-Admin
+Proyek ini dapat digunakan dan dimodifikasi untuk kepentingan pengembangan lebih lanjut. Silakan merujuk pada lisensi di repositori (jika tersedia).
 
-Username : Admin
+---
 
-Pasword : Admin
-
+> Dibuat untuk mendukung digitalisasi pengelolaan toko bangunan secara efisien dan terstruktur.
