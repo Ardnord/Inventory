@@ -51,7 +51,6 @@ Pastikan Anda memiliki:
 
 - **XAMPP**: Apache & MySQL aktif.
 - **PHP**: Versi 7.4.20 sangat disarankan (versi lebih baru mungkin butuh penyesuaian).
-- **Browser modern**: Untuk UI terbaik.
 
 ---
 
